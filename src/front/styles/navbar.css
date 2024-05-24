@@ -1,0 +1,35 @@
+.custom-navbar {
+    background-color: #FFA500;
+}
+
+.custom-navbar-brand {
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.custom-nav-link {
+    color: #fff;
+    font-size: 18px;
+}
+
+.custom-nav-link:hover {
+    color: #FFD700; /* Un color dorado para el hover */
+}
+
+.dropdown-menu {
+    background-color: #FFA500;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    background-color: #FFD700; /* Un color dorado para el hover */
+}

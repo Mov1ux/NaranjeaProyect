@@ -1,7 +1,57 @@
-/*
-    home.css: This website contains selectors only used in home.css
+.home-container {
+    font-family: Arial, sans-serif;
+}
 
-    All pages share the styles on index.css but you should create 
-    one more css for each page that will contain the selected used 
-    on that page only (the ones not reused in other pages).
-*/
+.hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.products-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.product-categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-link {
+    padding: 10px 20px;
+    background-color: #FFA500;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.reviews-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.review {
+    margin-bottom: 20px;
+}
+
+.collaborations-section {
+    padding: 50px 0;
+    text-align: center;
+}
